@@ -1,6 +1,6 @@
 import requests
 
-req = requests.get("https://swapi.dev/api/people/55/")
+req = requests.get("https://swapi.dev/api/people/11/")
 print(req.status_code)
 person = req.json()
 print(person['name'])
